@@ -8,8 +8,6 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
-node
-container:1
 steps:
 - task: Maven@3
   inputs:
